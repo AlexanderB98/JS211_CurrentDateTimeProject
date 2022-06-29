@@ -16,6 +16,19 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
+const numToString = () => {
+
+  let num = 15;
+  let text = num.toString();
+
+  console.log(text, num)
+
+  document.getElementById("num-to-str").innerHTML = (`The typeof ${text} is ${typeof text}`)
+
+  return text
+  console.log(text)
+
+}
 
 
 // Write a JavaScript program to convert a string to the number.
